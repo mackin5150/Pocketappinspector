@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pocketappinspector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:2:5-77
+11-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:2:22-74
+12    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+12-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:3:5-82
+12-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:3:22-79
+13
+14    <application
+14-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:4:5-15:19
+15        android:allowBackup="false"
+15-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:5:9-36
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:label="Pocket App Inspector"
+18-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:6:9-45
+19        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+19-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:7:9-72
+20        android:usesCleartextTraffic="false" >
+20-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:8:9-45
+21        <activity
+21-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:9:9-14:20
+22            android:name="com.pocketappinspector.MainActivity"
+22-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:9:19-47
+23            android:exported="true" >
+23-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:9:48-71
+24            <intent-filter>
+24-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:10:13-13:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:11:17-69
+25-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:11:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:12:17-77
+27-->/workspace/Pocketappinspector/App/src/main/AndroidManifest.xml:12:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

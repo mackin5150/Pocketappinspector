@@ -1,0 +1,7 @@
+com.pocketappinspector.App-pngs-0 /workspace/Pocketappinspector/App/build/generated/res/pngs/debug
+com.pocketappinspector.App-resValues-1 /workspace/Pocketappinspector/App/build/generated/res/resValues/debug
+com.pocketappinspector.App-packageDebugResources-2 /workspace/Pocketappinspector/App/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.pocketappinspector.App-packageDebugResources-3 /workspace/Pocketappinspector/App/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.pocketappinspector.App-debug-4 /workspace/Pocketappinspector/App/build/intermediates/merged_res/debug/mergeDebugResources
+com.pocketappinspector.App-debug-5 /workspace/Pocketappinspector/App/src/debug/res
+com.pocketappinspector.App-main-6 /workspace/Pocketappinspector/App/src/main/res

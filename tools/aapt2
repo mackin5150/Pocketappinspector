@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec box64 /opt/android-sdk/build-tools/35.0.0/aapt2 "$@"

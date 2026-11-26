@@ -72,7 +72,7 @@ class MainActivity : Activity() {
         val title = TextView(this).apply { text = "Pocket App Inspector"; textSize = 24f; setTextColor(0xFF17243A.toInt()); setPadding(0, 0, 0, 6) }
         root.addView(title)
         root.addView(TextView(this).apply { text = "On-device app audit · nothing is uploaded"; textSize = 14f; setTextColor(0xFF596579.toInt()); setPadding(0, 0, 0, 12) })
-        search = EditText(this).apply { hint = "Search app name or package"; singleLine = true }
+        search = EditText(this).apply { hint = "Search app name or package"; setSingleLine(true) }
         root.addView(search)
         val actions = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL }
         actions.addView(button("Rescan") { refresh() }, weight())
@@ -134,7 +134,7 @@ class MainActivity : Activity() {
         if (Build.VERSION.SDK_INT >= 23) {
             op("Usage access (app activity)", AppOpsManager.OPSTR_GET_USAGE_STATS)
             op("Display over other apps", AppOpsManager.OPSTR_SYSTEM_ALERT_WINDOW)
-            op("Install unknown apps", AppOpsManager.OPSTR_REQUEST_INSTALL_PACKAGES)
+            op("Install unknown apps", "android:request_install_packages")
         }
         val services = (getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager)
             .getEnabledAccessibilityServiceList(AccessibilityServiceInfo.FEEDBACK_ALL_MASK)
